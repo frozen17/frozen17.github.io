@@ -1,0 +1,1091 @@
+@import "header";
+@import "main";
+@import "about";
+@import "footer";
+@import "foods";
+@import "pizza";
+@import "dish";
+@import "dish2";
+@import "drinks";
+@import "fastfood";
+@import "dessert";
+
+
+
+.main {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    background-image: url(../images/new.phon.jpg);
+    background-size: 105% 140vh;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+.main-text {
+    width: 60%;
+    height: 100vh; 
+    align-self: center;
+    padding: 10% 10%;
+}
+
+.main-img{
+    width: 40%;
+}
+.main-content h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+.main-content p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+.main-buttons {
+    height: 20vh;
+}
+.main-buttons a {
+    text-decoration: none;
+    border: 1px solid #e5c26a;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    margin: 10px 10px;
+    background-color: #e5c26a;
+}
+
+// Второй блог
+
+
+.advantage {
+    height: 140vh;
+    background-color: #000000;
+}
+.advantage-title {
+    text-align: center; 
+    letter-spacing: 1.5px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 30px 0;
+
+}
+.all-advantage {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.advantage-content {
+    width: 30%;
+    text-align: center;
+    align-self: center;
+    margin: 40px 0;
+}
+.advantage-icon {
+    position: relative;
+    z-index: 10;
+    width: 70px;
+    height: 70px;
+    color: #e5c26a;
+    padding: 15px;
+    border: 10px solid rgba(255,255,255,.4);
+    background-clip: content-box;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.advantage-info {
+    color: #fff;
+}
+
+// ОТзывы   
+
+
+.review {
+    width: 100%;
+    height: 150vh;
+}
+.review-carousel {
+    width: 70%;
+    margin: 0 auto;
+}
+.first-user  {
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+    box-shadow: 0px 0px 24px 3px rgba(8, 10, 12, 0.1);
+    background-color: #fff;
+}
+.first-user img {
+    width: 300px;
+    height: 240px;
+    border-radius: 50%;
+    padding: 25px 40px;
+}
+
+.likes {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+li {
+    list-style-type: none;
+    color: #C4E538;
+    margin-bottom: 0;
+}
+.first-user {
+
+    p{
+        text-align: center;
+    }
+    
+}
+.username {
+    color: #000000;
+    text-align: center;
+}
+.review-user {
+    font-family: 'Ubuntu', sans-serif;
+    color: #e4002b;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+// form
+
+
+.register {
+    width: 100%;
+    height: 130vh;
+    background-color: #000000;
+}
+.box {
+    height: 100vh;
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+.book-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book-title {
+    font-family: 'Ubuntu', sans-serif;
+    width: 70%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.book-descr {
+    width: 50%;
+    color: white;
+    opacity: 0.7;
+}
+.register-one {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.register-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    cursor: pointer;    
+}
+.register-img {
+    width: 40%;
+    margin: 20px 0 30px 0;
+}
+.box h2 {
+    font-size: 25px;
+    color: #fff;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    font-family: 'Ubuntu', sans-serif;
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #e5c26a;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.5s;
+}
+.box input[type = "email"],.box input[type = "number"]{
+    font-family: 'Ubuntu', sans-serif;
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #e5c26a;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.5s;
+}
+.checkbox-call {
+    display: flex;
+    margin-left: 65%;
+}
+.box input[type = "checkbox"] {
+    margin: 7px 10px;
+}
+.checkbox-call p {
+    color: #fff;
+}
+.box input[type = "text"]:focus,.box input[type = "number"]:focus,.box input[type = "email"]:focus,.box input[type = "number"]:focus{
+    width: 350px;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: 0;
+    display: block;
+    border: 2px solid  #e5c26a;
+    color: white;
+    margin: 20px auto;
+    padding: 14px 40px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover {
+    background: #e5c26a;
+    color: #000000;
+}
+
+
+// contacts
+
+
+.contact {
+    width: 100%;
+    height: 130vh;
+}
+.contacts-name {
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    margin: 30px 0;
+}
+.contacts-title-our {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    color: #e4002b;
+}
+.contacts-all {
+    display: flex;  
+    flex-wrap:wrap;
+}
+.contacts-video {
+    width: 45vw;
+    height: 110vh;
+}
+.style-contacts {
+    display: flex;
+}
+.two-contacts {
+    display: flex;
+    flex-wrap: wrap;
+}
+.real-contacts {
+    width: 30vw;
+    margin-left: 10%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contacts-email {
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-contacts {
+    display: flex;
+}
+.facebook-contacts {
+    display: flex;
+}
+.instagram-contacts {
+    display: flex;
+}
+.real-contacts h4 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #f6e58d;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.real-contacts a {
+    text-decoration: none;
+}
+.real-contacts li {
+    margin: 2px 3px 5px 0;
+}
+.contacts-email {
+    margin-top: 30px;
+
+}
+.social-contacts {
+    margin-top: 10px;
+}
+.style-contacts {
+    margin: 0 15px;
+}
+.instagram-contacts,.facebook-contacts{
+    padding: 10px 20px;
+}
+
+
+
+
+
+@media (max-width: 1100px) {
+    .main {
+        width: 100%;
+        height: 80vh;
+        background-size: 120% 80vh;
+    }
+    .main-text {
+        width: 60%;
+        height: 100vh;
+        align-self: flex-start;
+    }
+    .advantage {
+        height: 95vh;
+    }
+    .advantage-content {
+        width: 30%;
+        margin-bottom: 0;
+    }
+    .review {
+        height: 90vh;
+    }
+    .first-user {
+        height: 60vh;
+    }
+    .contact {
+        height: 100vh;
+    }
+    .contacts-video {
+        height: 70vh;
+    }
+}
+@media (max-width: 1000px) {
+    .main {
+        width: 100%;
+        height: 80vh;
+        background-size: 120% 80vh;
+    }
+    .main-text {
+        width: 60%;
+        height: 100vh;
+        align-self: flex-start;
+    }
+    .button-two {
+        margin: 50px;
+        width: 50%;
+        height: 50px;
+    }
+    .button-one {
+        margin: 50px;
+        width: 50%;
+        height: 50px;
+    }
+    .main-buttons {
+        display: flex;
+
+    }
+    .advantage {
+        height: 125vh;
+    }
+    .advantage-content {
+        width: 45%;
+        margin-bottom: 0;
+    }
+    .review {
+        height: 80vh;
+    }
+    .first-user {
+        height: 60vh;
+    }
+    .register{
+        width: 100%;
+        height: 75vh;
+    } 
+    .box {
+        width: 100%;
+    }
+    .book-title {
+        width: 100%;
+    }
+    .book-descr {
+        width: 100%;
+    }
+    .register-one  {
+        display: flex;
+        justify-content: space-around;
+    }
+    .register-two {
+        display: flex;
+        justify-content: space-around;
+    }
+    .box input[type = "text"],.box input[type = "number"],.box input[type = "email"] {
+        width: 250px;
+    }
+    .box input[type = "text"]:focus,.box input[type = "number"]:focus,.box input[type = "email"]:focus,.box input[type = "number"]:focus{
+        width: 300px;
+    }
+    .checkbox-call {
+        margin-left: 0;
+        height: 15px;
+        padding: 20px 0;
+        display: none;
+    }
+    .checkbox-call p{
+        height: 10px;
+    }
+    .contact {
+        height: 150vh;
+    }
+    .contacts-all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts-video  {
+        width: 100vw;
+        height: 50vh;
+        margin-top: 20px;
+    }
+    .real-contacts {
+        width: 100%;
+        text-align: center;
+    }
+    .contacts-title-our {
+        margin-bottom: 100px;
+    }
+}
+@media (max-width: 900px) {
+    .main {
+        width: 100%;
+        height: 80vh;
+        background-size: 120% 80vh;
+    }
+    .main-text {
+        width: 60%;
+        height: 100vh;
+        align-self: flex-start;
+    }
+    .button-two {
+        margin: 50px;
+        width: 50%;
+        height: 50px;
+    }
+    .button-one {
+        margin: 50px;
+        width: 50%;
+        height: 50px;
+    }
+    .main-buttons {
+        display: flex;
+
+    }
+    .advantage {
+        height: 125vh;
+    }
+    .advantage-content {
+        width: 45%;
+        margin-bottom: 0;
+    }
+    .review {
+        height: 80vh;
+    }
+    .first-user {
+        height: 60vh;
+    }
+    .register{
+        width: 100%;
+        height: 75vh;
+    } 
+    .box {
+        width: 100%;
+    }
+    .book-title {
+        width: 100%;
+    }
+    .book-descr {
+        width: 100%;
+    }
+    .register-one  {
+        display: flex;
+        justify-content: space-around;
+    }
+    .register-two {
+        display: flex;
+        justify-content: space-around;
+    }
+    .box input[type = "text"],.box input[type = "number"],.box input[type = "email"] {
+        width: 250px;
+    }
+    .box input[type = "text"]:focus,.box input[type = "number"]:focus,.box input[type = "email"]:focus,.box input[type = "number"]:focus{
+        width: 300px;
+    }
+    .checkbox-call {
+        margin-left: 0;
+        height: 15px;
+        padding: 20px 0;
+        display: none;
+    }
+    .checkbox-call p{
+        height: 10px;
+    }
+    .contact {
+        height: 150vh;
+    }
+    .contacts-all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts-video  {
+        width: 100vw;
+        height: 50vh;
+        margin-top: 20px;
+    }
+    .real-contacts {
+        width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .main {
+        width: 100%;
+        height: 80vh;
+        background-size: 150% 70vh;
+    }
+    .main-text {
+        width: 100%;
+        height: 100vh;
+        align-self: flex-start;
+        text-align: center;
+    }
+    .button-two {
+        margin: 50px;
+        width: 50%;
+    }
+    .button-one {
+        margin: 50px;
+        width: 50%;
+    }
+    .main-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+    .advantage {
+        height: 125vh;
+    }
+    .advantage-content {
+        width: 45%;
+        margin-bottom: 0;
+    }
+    .review {
+        height: 80vh;
+    }
+    .first-user {
+        height: 60vh;
+    }
+    .register{
+        width: 100%;
+        height: 90vh;
+    } 
+    .box {
+        width: 100%;
+        padding-top: 100px;
+    }
+    .book-title {
+        width: 100%;
+    }
+    .book-descr {
+        width: 100%;
+    }
+    .register-one  {
+        display: flex;
+        justify-content: space-around;
+    }
+    .register-two {
+        display: flex;
+        justify-content: space-around;
+    }
+    .box input[type = "text"],.box input[type = "number"],.box input[type = "email"] {
+        width: 250px;
+    }
+    .box input[type = "text"]:focus,.box input[type = "number"]:focus,.box input[type = "email"]:focus,.box input[type = "number"]:focus{
+        width: 300px;
+    }
+    .checkbox-call {
+        margin-left: 0;
+        height: 15px;
+        padding: 20px 0;
+        display: none;
+    }
+    .checkbox-call p{
+        height: 10px;
+    }
+    .contact {
+        height: 150vh;
+    }
+    .contacts-all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts-video  {
+        width: 100vw;
+        height: 50vh;
+        margin-top: 20px;
+    }
+    .real-contacts {
+        width: 100%;
+    }
+}
+@media (max-width: 600px) {
+    .main {
+        width: 100%;
+        height: 80vh;
+        background-size: 150% 70vh;
+    }
+    .main-text {
+        width: 100%;
+        height: 100vh;
+        align-self: flex-start;
+        text-align: center;
+    }
+    .button-two {
+        margin: 50px;
+        width: 50%;
+    }
+    .button-one {
+        margin: 50px;
+        width: 50%;
+    }
+    .main-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+    .advantage {
+        height: 195vh;
+    }
+    .advantage-content {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .review {
+        height: 100vh;
+    }
+    .first-user {
+        height: 60vh;
+    }
+    .register{
+        width: 100%;
+        height: 135vh;
+    } 
+    .box {
+        width: 100%;
+    }
+    .book-title {
+        width: 100%;
+    }
+    .book-descr {
+        width: 100%;
+    }
+    .register-one  {
+        display: flex;
+        justify-content: center;
+    }
+    .register-two {
+        display: flex;
+        justify-content: center;
+    }
+    .box input[type = "text"],.box input[type = "number"],.box input[type = "email"] {
+        width: 300px;
+    }
+    .box input[type = "text"]:focus,.box input[type = "number"]:focus,.box input[type = "email"]:focus,.box input[type = "number"]:focus{
+        width: 350px;
+    }
+    .checkbox-call {
+        margin-left: 0;
+        height: 15px;
+        padding: 20px 0;
+        display: none;
+    }
+    .checkbox-call p{
+        height: 10px;
+    }
+    .contact {
+        height: 150vh;
+    }
+    .contacts-all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts-video  {
+        width: 100vw;
+        height: 50vh;
+        margin-top: 20px;
+    }
+    .real-contacts {
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .main {
+        width: 100%;
+        height: 80vh;
+        background-size: 150% 70vh;
+    }
+    .main-text {
+        width: 100%;
+        height: 100vh;
+        align-self: flex-start;
+        text-align: center;
+    }
+    .main-buttons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .button-two {
+        margin: 50px;
+        width: 50%;
+    }
+    .button-one {
+        margin: 50px;
+        width: 50%;
+    }
+    .advantage {
+        height: 245vh;
+    }
+    .advantage-content {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .review {
+        height: 100vh;
+    }
+    .first-user {
+        height: 60vh;
+    }
+    .register{
+        width: 100%;
+        height: 135vh;
+    } 
+    .box {
+        width: 100%;
+    }
+    .book-title {
+        width: 100%;
+    }
+    .book-descr {
+        width: 100%;
+    }
+    .register-one  {
+        display: flex;
+        justify-content: center;
+    }
+    .register-two {
+        display: flex;
+        justify-content: center;
+    }
+    .box input[type = "text"],.box input[type = "number"],.box input[type = "email"] {
+        width: 250px;
+    }
+    .box input[type = "text"]:focus,.box input[type = "number"]:focus,.box input[type = "email"]:focus,.box input[type = "number"]:focus{
+        width: 300px;
+    }
+    .checkbox-call {
+        margin-left: 0;
+    }
+    .contact {
+        height: 150vh;
+    }
+    .contacts-all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts-video  {
+        width: 100vw;
+        height: 50vh;
+        margin-top: 20px;
+    }
+    .real-contacts {
+        width: 100%;
+    }
+}
+@media (max-width:375px ) {
+    .main {
+        width: 100%;
+        height: 80vh;
+        background-size: 150% 70vh;
+    }
+    .main-text {
+        width: 100%;
+        height: 100vh;
+        align-self: flex-start;
+        text-align: center;
+    }
+    .button-two {
+        margin: 50px;
+    }
+    .main-buttons {
+        display: flex;
+        flex-direction: column
+    }
+    .advantage {
+        height: 250vh;
+    }
+    .advantage-content {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .first-user {
+        height: 60vh;
+    }
+    .register{
+        width: 100%;
+        height: 125vh;
+    } 
+    .box {
+        width: 100%;
+    }
+    .book-title {
+        width: 100%;
+    }
+    .book-descr {
+        width: 100%;
+    }
+    .register-one  {
+        display: flex;
+        justify-content: center;
+    }
+    .register-two {
+        display: flex;
+        justify-content: center;
+    }
+    .box input[type = "text"],.box input[type = "number"],.box input[type = "email"] {
+        width: 250px;
+    }
+    .box input[type = "text"]:focus,.box input[type = "number"]:focus,.box input[type = "email"]:focus,.box input[type = "number"]:focus{
+        width: 300px;
+    }
+    .checkbox-call {
+        margin-left: 0;
+    }
+    .contact {
+        height: 150vh;
+    }
+    .contacts-all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts-video  {
+        width: 100vw;
+        height: 50vh;
+        margin-top: 20px;
+    }
+    .real-contacts {
+        width: 100%;
+    }
+}
+@media (max-width: 340px ) {
+    .main {
+        width: 100%;
+        height: 50vh;
+        background-size: 150% 70vh;
+    }
+    .main-text {
+        width: 100%;
+        height: 100vh;
+        align-self: flex-start;
+        text-align: center;
+    }
+    .button-two {
+        margin: 50px;
+    }
+    .main-buttons {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .advantage {
+        height: 200vh;
+    }
+    .advantage-content {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .review {
+        height: 160vh;
+    }
+    .register{
+        width: 100%;
+        height: 170vh;
+    } 
+    .box {
+        width: 100%;
+    }
+    .book-title {
+        width: 100%;
+    }
+    .book-descr {
+        width: 100%;
+    }
+    .register-one  {
+        display: flex;
+        justify-content: center;
+    }
+    .register-two {
+        display: flex;
+        justify-content: center;
+    }
+    .box input[type = "text"],.box input[type = "number"],.box input[type = "email"] {
+        width: 200px;
+    }
+    .box input[type = "text"]:focus,.box input[type = "number"]:focus,.box input[type = "email"]:focus,.box input[type = "number"]:focus{
+        width: 250px;
+    }
+    .checkbox-call {
+        margin-left: 0;
+    }
+    .contact {
+        height: 160vh;
+    }
+    .contacts-all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts-video  {
+        width: 100vw;
+        height: 50vh;
+        margin-top: 20px;
+    }
+    .real-contacts {
+        width: 100%;
+    }
+
+}
+@media (max-width: 300px ) {
+    .main {
+        width: 100%;
+        height: 90vh;
+        background-size: 150% 70vh;
+    }
+    .main-text {
+        width: 100%;
+        height: 100vh;
+        align-self: flex-start;
+        text-align: center;
+    }
+    .button-two {
+        margin: 50px;
+    }
+    .main-buttons {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .advantage {
+        height: 200vh;
+    }
+    .advantage-content {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .review {
+        height: 100vh;
+    }
+    .register{
+        width: 100%;
+        height: 160vh;
+    } 
+    .box {
+        width: 100%;
+    }
+    .book-title {
+        width: 100%;
+    }
+    .book-descr {
+        width: 100%;
+    }
+    .register-one  {
+        display: flex;
+        justify-content: center;
+    }
+    .register-two {
+        display: flex;
+        justify-content: center;
+    }
+    .box input[type = "text"],.box input[type = "number"],.box input[type = "email"] {
+        width: 200px;
+    }
+    .box input[type = "text"]:focus,.box input[type = "number"]:focus,.box input[type = "email"]:focus,.box input[type = "number"]:focus{
+        width: 250px;
+    }
+    .checkbox-call {
+        margin-left: 0;
+    }
+    .contact {
+        height: 160vh;
+    }
+    .contacts-all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts-video  {
+        width: 100vw;
+        height: 50vh;
+        margin-top: 20px;
+    }
+    .real-contacts {
+        width: 100%;
+    }
+} 
